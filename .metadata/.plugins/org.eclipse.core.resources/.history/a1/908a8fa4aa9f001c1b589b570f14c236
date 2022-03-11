@@ -1,0 +1,32 @@
+public class Hello {
+
+	public static void main(String[] args) {
+		int a = 1;
+		int b = 2;
+		double[] Array = new double[4];
+		Array[0] = a+b;
+		Array[1] = a-b;
+		Array[2] = a*b;
+		Array[3] = (double)a/b;
+		for (double i : Array) {
+			int j = 1;
+			switch(j) {
+			case 1:
+				System.out.println("a + b = ");
+				break;
+			case 2:
+				System.out.println("a - b = ");
+				break;
+			case 3:
+				System.out.println("a 곱하기 b = ");
+				break;
+			case 4:
+				System.out.println("a 나누기 b = ");
+				break;
+			}
+			System.out.println(i);
+			j++;
+		}
+		
+	}
+}

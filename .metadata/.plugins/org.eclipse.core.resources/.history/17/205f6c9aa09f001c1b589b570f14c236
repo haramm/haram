@@ -1,0 +1,24 @@
+//계산기 문제!!!
+        // 정수의 사칙연산 -> 나머지 연산
+        // 실수의 사칙연산 또한 이상 없이 돌아가게끔 만들어주세요
+        // 매소드 사용 X , a , b => 상수를 직접 입력!!!!
+
+
+        //출력예시 정수 --> 실수!!!
+        //a + b = ###
+        // a - b = ###
+        // a 곱하기 b = ###
+        // a 나누기 b = ##
+        // a 나누기 b의 나머지 : ###
+import java.util.Scanner;
+public class Hello {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double input_1 = sc.nextDouble();
+		double input_2 = sc.nextDouble();
+		System.out.println(input_1);
+
+	}
+
+}

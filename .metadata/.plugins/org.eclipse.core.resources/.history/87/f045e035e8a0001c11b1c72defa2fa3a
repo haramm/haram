@@ -1,0 +1,17 @@
+package for_study;
+
+public class calc_1 {
+	public static void calc(int a,int b) {
+		System.out.println("a + b = "+(a+b));
+		System.out.println("a - b = "+(a-b));
+		System.out.println("a 곱하기 b = "+(a*b));
+		System.out.println("a 나누기 b = "+(double)(a/b));
+	}
+
+	public static void main(String[] args) {
+		
+		calc(10,20);
+
+	}
+
+}

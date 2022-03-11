@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class calc_1 {
+	
+	public static void main(String[] args) { 
+		Scanner sc = new Scanner(System.in);
+		double inputNum1 = sc.nextDouble();
+		double inputNum2 = sc.nextDouble();
+		List<Double> list = new ArrayList<Double>();
+		list.add(inputNum1);
+		list.add(inputNum2);
+		System.out.println(inputNum1);
+		System.out.println(inputNum2);
+	
+		
+}
+	
+}	
+	

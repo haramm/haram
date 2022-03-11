@@ -1,0 +1,17 @@
+public class Hello {
+
+	public static void main(String[] args) {
+		int a = 1;
+		int b = 2;
+		int[] Array = new int[4];
+		Array[1] = a+b;
+		Array[2] = a-b;
+		Array[3] = a*b;
+		Array[4] = a%b;
+		System.out.println("a + b = "+Array[1]);
+		System.out.println("a - b = "+Array[2]);
+		System.out.println("a 곱하기 b = "+Array[3]);
+		System.out.println("a 나누기 b = "+Array[4]);
+		
+	}
+}
